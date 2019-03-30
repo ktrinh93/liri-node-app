@@ -40,6 +40,11 @@ function run() {
 
 // calls bandsintown api with the command line argument as the artist name
 function findConcert() {
+
+    if(name == "") {
+        return console.log("Please enter a band to search for concerts.");
+    }
+
     axios.get("https://rest.bandsintown.com/artists/" + name + "/events?app_id=codingbootcamp")
         .then(function (response) {
 
