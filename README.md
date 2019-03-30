@@ -3,10 +3,8 @@
 This LIRI (Language Interpretation and Recognition Interface) application is written as a node application.
 
 TO RUN:
-Create a .env file where the file contents are as follows:
+Create an .env file where the file contents are as follows:
 -------------------------------------
-# Spotify API keys                   |
-                                     |
 SPOTIFY_ID=your-spotify-id           |
 SPOTIFY_SECRET=your-spotify-secret   |
 -------------------------------------
