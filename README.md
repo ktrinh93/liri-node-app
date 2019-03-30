@@ -17,9 +17,9 @@ In your command line environment, run the following: `node liri.js <command> <na
 <command> can be any of the following four(4): `concert-this`, `spotify-this-song`, `movie-this`, or `do-what-it-says`.
   Any invalid command will inform you of such a command.
   
-<name> can be any word/series of words that describe the media/entertainment you are seeking (artist/band, song name, movie title)
-  <name> is optional for `spotify-this-song` and `movie-this` as there are default values for these commands.
-  <name> is required for `concert-this`, lack of a name will result in an error.
+`<name>` can be any word/series of words that describe the media/entertainment you are seeking (artist/band, song name, movie title)
+  `<name>` is optional for `spotify-this-song` and `movie-this` as there are default values for these commands.
+  `<name>` is required for `concert-this`, lack of a name will result in an error.
     
 `do-what-it-says` runs LIRI based on the text in "random.txt" (adjacent file). Text in this file must be in the form of:
 <command>,<name>
