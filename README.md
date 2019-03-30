@@ -25,7 +25,7 @@ In your command line environment, run the following: `node liri.js <command> <na
   `<name>` is required for `concert-this`, lack of a name will result in an error.
     
 `do-what-it-says` runs LIRI based on the text in "random.txt" (adjacent file). Text in this file must be in the form of:
-<command>,<name>
+`<command>,<name>`
   See random.txt for example
   
 See APP-DEMO video for examples.
