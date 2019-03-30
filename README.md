@@ -2,7 +2,7 @@
 
 This LIRI (Language Interpretation and Recognition Interface) application is written as a node application.
 
-TO RUN:
+SETUP:
 Create an .env file where the file contents are as follows:
 -------------------------------------
 SPOTIFY_ID=your-spotify-id           |
