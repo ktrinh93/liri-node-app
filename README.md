@@ -4,10 +4,10 @@ This LIRI (Language Interpretation and Recognition Interface) application is wri
 
 SETUP:
 Create an .env file where the file contents are as follows:
-`
+```
 SPOTIFY_ID=your-spotify-id
 SPOTIFY_SECRET=your-spotify-secret
-`
+```
 where "your-spotify-id" and "your-spotify-secret" are valid API IDs and secrets, which can be obtained by creating an account (https://developer.spotify.com/dashboard/login). Do not put quotes around your id or secret.
 
 `npm install` must be run prior to running the app to install relevant packages/modules
